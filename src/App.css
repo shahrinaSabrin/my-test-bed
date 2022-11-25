@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  width: 30%;
+  background-color: bisque;
+  position: relative;
+  left: 35%;
+
 }
 
 .App-logo {
@@ -27,6 +32,29 @@
 .App-link {
   color: #61dafb;
 }
+.timeShowing {
+  font-weight: bold;
+position: relative;
+font-size: 50px;
+
+}
+
+.container{
+padding-top: 30px;
+padding: 20px;
+position: relative;
+left: 25%;
+width: 50%;
+height: 400px;
+background-color: orange;
+box-sizing: border-box;
+border-radius: 30%;
+}
+.heading{
+color: black;
+font-weight: bold;
+font-size: 30px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +64,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+body {
+  margin-top: 20px;
+  background:gray;
+  color: white;
+  text-align: center;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
